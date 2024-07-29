@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    overflow-x: hidden;
+}
+body{
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("cloudbkg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div {
+    padding: 0;
+    margin: 0;
+}
+.welcome {
+    font-size: 80px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+.intro {
+    width: 100%;
+    height: 50vh;
+    padding: 75px 40px 0px 40px;
+    position: relative;
+    border-top: solid white;
+    border-bottom: solid white;
+}
+.intro-blue {
+    background-color: #1d456a;
+    color: #7fc9dd;
+}
+.intro-basil {
+    background-color: #f0bebe;
+    color: #274c23;
+}
+img.intropics {
+    vertical-align: middle;
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    float: left;
+    border: solid white;
+    border-radius: 10px;
+}
+.intropicss {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    float: left;
+    border: solid white;
+    margin: 0px 0px 0px 25px;
+    border-radius: 10px;
+}
+
+#verticalblue {
+    padding-right: 25px;
+    color: #7fc9dd;
+    font-size: 80px;
+    font-weight: bolder;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    float: left;
+}
+#verticalbasil {
+    padding-right: 50px;
+    color: #274c23;
+    font-size: 60px;
+    font-weight: bolder;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    float: left;
+}
+
+#hellotitle {
+    padding-top: 100px;
+}
+.meetbtn {
+    height: 305px;
+    width: 120px;
+    float: left;
+    display: block;
+    position: relative;
+    border: solid white;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+.meetblue {
+    color: white;
+    background-color: #1d456a;
+}
+.meetblue:hover {
+    background-color: #7fc9dd;
+}
+.meetbasil {
+    background-color:#f0bebe;
+    color: white;
+}
+.meetbasil:hover {
+    background-color:#274c23;
+}
+.break {
+    height: 100px;
+}
+.main {
+    height: 650px;
+    width: 80%;
+    padding: 45px;
+    overflow: none;
+    margin: auto;
+    border-radius: 15px;
+    border: solid white;
+}
+#main-blue {
+    background: #7fc9dd;
+}
+#main-basil {
+    background: #274c23;
+}
+.rectangle {
+    width: 121px;
+    height: 60px;
+    left: 410px;
+    position: absolute;
+    border: solid white;
+}
+ .sqpic {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    overflow: none;
+    border: solid white;
+    margin: 5px;  
+    border-radius: 10px;
+ }
+.descriptbox {
+    height: auto; width:40%;
+    float: right;
+    margin: auto;
+}
+p.description {
+    font-size: 20px;
+}
+.descriptblue {
+    color:#1d456a;
+}
+.descriptbasil {
+    color:#f0bebe;
+}
+
+
+
+.one {
+    top: 160px;
+}
+.two {
+    top: 235px;
+}
+.three {
+    top: 310px;
+}
